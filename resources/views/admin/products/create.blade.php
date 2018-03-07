@@ -39,11 +39,28 @@
                     </div>
                 
                 </div>
-
-                    <div class="form-group label-floating">
-                        <label class="control-label">Descripcion Corta</label>
-                        <input type="text" class="form-control" name="description" value="{{ old('description') }}">
+                    <div class="row">
+                    <div class="col-sm-6">
+                         <div class="form-group label-floating">
+                            <label class="control-label">Descripcion Corta</label>
+                            <input type="text" class="form-control" name="description" value="{{ old('description') }}">
+                        </div>
                     </div>
+                     <div class="col-sm-6">
+                        <div class="form-group label-floating">
+                            <label class="control-label">Categoria</label>
+                            <select class="form-control" name="category_id">
+                                <option value="0">General</option>
+                                @foreach ($categories as $category)
+                                <option value="{{ $category->id }} ">{{ $category->name }}</option>
+                                @endforeach
+                            </select>
+                        </div>
+                    </div>
+                
+                </div>
+
+                   
                     
                     <textarea class="form-control" placeholder="Descripcion Completa del Producto" rows="5" name="long_description">{{ old('description') }}</textarea>
 
