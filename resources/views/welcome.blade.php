@@ -70,58 +70,58 @@
                 <div class="row">
                     <div class="col-md-6">
                         <h1 class="title">Bienvenido a {{ config('app.name')}}</h1>
-                        <h4>Realiza tus pedidos en linea y te contactaremos para coordinar la entrega.</h4>
+                        <!-- <h4>Realiza tus pedidos en linea y te contactaremos para coordinar la entrega.</h4> -->
                         <br />
-                        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="btn btn-danger btn-raised btn-lg">
-                            <i class="fa fa-play"></i> ¿Como funciona?
-                        </a>
+<!--                         <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="btn btn-danger btn-raised btn-lg">
+    <i class="fa fa-play"></i> ¿Como funciona?
+</a> -->
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="main main-raised">
-            <div class="container">
-                <div class="section text-center section-landing">
-                    <div class="row">
-                        <div class="col-md-8 col-md-offset-2">
-                            <h2 class="title">¿Por que App Pedidos?</h2>
-                            <h5 class="description">Puedes revisar nuestra realcion completa de productos, comprar precios y realizar tus pedidos cuando estes seguro</h5>
+<!--         <div class="main main-raised">
+    <div class="container">
+        <div class="section text-center section-landing">
+            <div class="row">
+    <div class="col-md-8 col-md-offset-2">
+    <h2 class="title">¿Por que App Pedidos?</h2>
+    <h5 class="description">Puedes revisar nuestra realcion completa de productos, comprar precios y realizar tus pedidos cuando estes seguro</h5>
+    </div>
+            </div>
+
+            <div class="features">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="info">
+                            <div class="icon icon-primary">
+                                <i class="material-icons">chat</i>
+                            </div>
+                            <h4 class="info-title">Atendemos tus dudas</h4>
+                            <p>Atendemos rapidamente cualquier consulta que tengas via chat. No estas solo, sino que siempre estamos atentos a tus inquietudes</p>
                         </div>
                     </div>
-
-                    <div class="features">
-                        <div class="row">
-                            <div class="col-md-4">
-                                <div class="info">
-                                    <div class="icon icon-primary">
-                                        <i class="material-icons">chat</i>
-                                    </div>
-                                    <h4 class="info-title">Atendemos tus dudas</h4>
-                                    <p>Atendemos rapidamente cualquier consulta que tengas via chat. No estas solo, sino que siempre estamos atentos a tus inquietudes</p>
-                                </div>
+                    <div class="col-md-4">
+                        <div class="info">
+                            <div class="icon icon-success">
+                                <i class="material-icons">verified_user</i>
                             </div>
-                            <div class="col-md-4">
-                                <div class="info">
-                                    <div class="icon icon-success">
-                                        <i class="material-icons">verified_user</i>
-                                    </div>
-                                    <h4 class="info-title">Pago Seguro</h4>
-                                    <p>Todo pedido que realices sera confirmado a traves de una llamada. Si no confias en los pagos en linea puedes pgar contra entrega el valor acordado</p>
-                                </div>
+                            <h4 class="info-title">Pago Seguro</h4>
+                            <p>Todo pedido que realices sera confirmado a traves de una llamada. Si no confias en los pagos en linea puedes pgar contra entrega el valor acordado</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="info">
+                            <div class="icon icon-danger">
+                                <i class="material-icons">fingerprint</i>
                             </div>
-                            <div class="col-md-4">
-                                <div class="info">
-                                    <div class="icon icon-danger">
-                                        <i class="material-icons">fingerprint</i>
-                                    </div>
-                                    <h4 class="info-title">Informacion Privada</h4>
-                                    <p>Los pedidos que realices solo los conoceras tu atreaves de tu panel de usuario. Nadie mas tiene acceso a esta informacion</p>
-                                </div>
-                            </div>
+                            <h4 class="info-title">Informacion Privada</h4>
+                            <p>Los pedidos que realices solo los conoceras tu atreaves de tu panel de usuario. Nadie mas tiene acceso a esta informacion</p>
                         </div>
                     </div>
                 </div>
+            </div>
+        </div> -->
 
                 <div class="section text-center">
                     <h2 class="title">Categorias de los porductos Disponibles</h2>
