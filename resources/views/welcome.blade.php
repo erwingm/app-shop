@@ -85,8 +85,8 @@
         <div class="section text-center section-landing">
             <div class="row">
     <div class="col-md-8 col-md-offset-2">
-    <h2 class="title">¿Por que App Pedidos?</h2>
-    <h5 class="description">Puedes revisar nuestra realcion completa de productos, comprar precios y realizar tus pedidos cuando estes seguro</h5>
+    <!-- <h2 class="title">¿Por que App Pedidos?</h2>
+    <h5 class="description">Puedes revisar nuestra realcion completa de productos, comprar precios y realizar tus pedidos cuando estes seguro</h5> -->
     </div>
             </div>
 
@@ -152,44 +152,44 @@
                 </div>
 
 
-                <div class="section landing-section">
-                    <div class="row">
-                        <div class="col-md-8 col-md-offset-2">
-                            <h2 class="text-center title">¿Aun no te has Registrado?</h2>
-                            <h4 class="text-center description">Registrate ingresando tus datos basicos y podras realizar tus pedidos a traves de nuestro carrito de compras. si aun no te decides, de todas formas, con tu cuenta de usuario podras hacer todas tus consultas sin compromiso</h4>
-                            <form class="contact-form">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="form-group label-floating">
-                                            <label class="control-label">Nombre</label>
-                                            <input type="email" class="form-control">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="form-group label-floating">
-                                            <label class="control-label">Correo Electronico</label>
-                                            <input type="email" class="form-control">
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="form-group label-floating">
-                                    <label class="control-label">Mensaje</label>
-                                    <textarea class="form-control" rows="4"></textarea>
-                                </div>
-
-                                <div class="row">
-                                    <div class="col-md-4 col-md-offset-4 text-center">
-                                        <button class="btn btn-primary btn-raised">
-                                            Registrate
-                                        </button>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-
-                </div>
+             <!--    <div class="section landing-section">
+                 <div class="row">
+                     <div class="col-md-8 col-md-offset-2">
+                         <h2 class="text-center title">¿Aun no te has Registrado?</h2>
+                         <h4 class="text-center description">Registrate ingresando tus datos basicos y podras realizar tus pedidos a traves de nuestro carrito de compras. si aun no te decides, de todas formas, con tu cuenta de usuario podras hacer todas tus consultas sin compromiso</h4>
+                         <form class="contact-form">
+                             <div class="row">
+                                 <div class="col-md-6">
+                                     <div class="form-group label-floating">
+                                         <label class="control-label">Nombre</label>
+                                         <input type="email" class="form-control">
+                                     </div>
+                                 </div>
+                                 <div class="col-md-6">
+                                     <div class="form-group label-floating">
+                                         <label class="control-label">Correo Electronico</label>
+                                         <input type="email" class="form-control">
+                                     </div>
+                                 </div>
+                             </div>
+             
+                             <div class="form-group label-floating">
+                                 <label class="control-label">Mensaje</label>
+                                 <textarea class="form-control" rows="4"></textarea>
+                             </div>
+             
+                             <div class="row">
+                                 <div class="col-md-4 col-md-offset-4 text-center">
+                                     <button class="btn btn-primary btn-raised">
+                                         Registrate
+                                     </button>
+                                 </div>
+                             </div>
+                         </form>
+                     </div>
+                 </div>
+             
+             </div> -->
             </div>
 
         </div>
