@@ -83,8 +83,15 @@
    <div class="main main-raised">
     <div class="container">
         <div class="section text-center section-landing">
-            <div class="row">
+    <div class="row">
     <div class="col-md-8 col-md-offset-2">
+         <h2 class="title">Categorias de los porductos Disponibles</h2>
+                    <form class="form-inline" method="get" action="{{ url('/search') }}">
+                        <input type="text" placeholder="¿Que producto Desea Buscar?" class="form-control" name="query" id="search">
+                        <button type="submit" class="btn btn-primary btn-just-icon">
+                            <i class="material-icons">search</i>
+                        </button>
+                    </form>
     <!-- <h2 class="title">¿Por que App Pedidos?</h2>
     <h5 class="description">Puedes revisar nuestra realcion completa de productos, comprar precios y realizar tus pedidos cuando estes seguro</h5> -->
     </div>
@@ -124,13 +131,13 @@
         </div> 
 
                 <div class="section text-center">
-                    <h2 class="title">Categorias de los porductos Disponibles</h2>
-                    <form class="form-inline" method="get" action="{{ url('/search') }}">
-                        <input type="text" placeholder="¿Que producto Desea Buscar?" class="form-control" name="query" id="search">
-                        <button type="submit" class="btn btn-primary btn-just-icon">
-                            <i class="material-icons">search</i>
-                        </button>
-                    </form>
+                   <!--  <h2 class="title">Categorias de los porductos Disponibles</h2>
+                   <form class="form-inline" method="get" action="{{ url('/search') }}">
+                       <input type="text" placeholder="¿Que producto Desea Buscar?" class="form-control" name="query" id="search">
+                       <button type="submit" class="btn btn-primary btn-just-icon">
+                           <i class="material-icons">search</i>
+                       </button>
+                   </form> -->
                     <div class="team">
                         <div class="row">
                             @foreach ($categories as $category)
