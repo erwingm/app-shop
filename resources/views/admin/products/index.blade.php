@@ -32,7 +32,7 @@
                                     <td>{{$product->name}}</td>
                                     <td>{{$product->description}}</td>
                                     <td>{{$product->category_name}}</td>
-                                    <td class="text-right">&euro; {{$product->price}}</td>
+                                    <td class="text-right">S/. {{$product->price}}</td>
                                     <td class="td-actions text-right">
                                         
                                        
