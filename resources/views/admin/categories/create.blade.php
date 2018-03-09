@@ -23,7 +23,7 @@
                     </div>
                     @endif
 
-                    <form method="post" action="{{url('/admin/categories')}}">
+                    <form method="post" action="{{url('/admin/categories')}}" enctype="multipart/form-data">
                         {{ csrf_field() }}
                 <div class="row">
                     <div class="col-sm-6">
@@ -32,10 +32,15 @@
                             <input type="text" class="form-control" name="name" value="{{ old('name') }}">
                         </div>
                     </div>
-                
+                    <div class="col-sm-6">
+
+                            <label class="control-label">Imagen de la Categoria</label>
+                            <input type="file" name="image">
+
+                    </div>
                 </div>
                     
-                    <textarea class="form-control" placeholder="Descripcion Categoria" rows="5" name="long_description">{{ old('description') }}</textarea>
+                    <textarea class="form-control" placeholder="Descripcion Categoria" rows="5" name="description">{{ old('description') }}</textarea>
 
                     <button class="btn btn-primary">Registrar</button>
                      <a href="{{ url ('admin/categories') }}" class="btn btn-default">Cancelar</a>

@@ -27,12 +27,12 @@
                     <p class="text-divider">Ingresa tu Datos</p>
                     <div class="content">
 
-
+                        <!-- tambien le podemos cambiar la id type y name por email y cambiar el loginController-->
                         <div class="input-group">
                             <span class="input-group-addon">
                                 <i class="material-icons">email</i>
                             </span>
-                             <input id="email" type="email" class="form-control" name="email" value="{{ old('email') }}" placeholder="Email..." required autofocus>
+                             <input id="username" type="text" class="form-control" name="username" value="{{ old('username') }}" placeholder="Email o Username..." required autofocus>
                         </div>
 
                         <div class="input-group">
@@ -40,7 +40,7 @@
                                 <i class="material-icons">lock_outline</i>
                             </span>
                             
-                            <input id="password" type="password" placeholder="Password..." class="form-control" name="password" required>
+                            <input id="password" type="password" placeholder="Contraseña..." class="form-control" name="password" required>
                         </div>
 
                         
