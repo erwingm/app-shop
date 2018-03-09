@@ -126,9 +126,6 @@
                        <p>Los pedidos que realices solo los conoceras tu atreaves de tu panel de usuario. Nadie mas tiene acceso a esta informacion</p>
                    </div>
                </div> -->
-                </div>
-            </div>
-        </div> 
 
                 <div class="section text-center">
                    <!--  <h2 class="title">Categorias de los porductos Disponibles</h2>
@@ -157,6 +154,10 @@
                     </div>
 
                 </div>
+                </div>
+            </div>
+        </div> 
+        <!-- Aqui va el foreach de la categoria -->
 
 
              <!--    <div class="section landing-section">
