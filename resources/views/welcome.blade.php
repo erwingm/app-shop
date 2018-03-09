@@ -140,6 +140,7 @@
                            <i class="material-icons">search</i>
                        </button>
                    </form> -->
+                   
                     <div class="team">
                         <div class="row">
                             @foreach ($categories as $category)
