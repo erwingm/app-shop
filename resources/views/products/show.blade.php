@@ -28,10 +28,14 @@
                     <div class="description text-center">
                         <p>{{ $product->long_description }}</p>
                     </div>
-        <div class="text-center" data-toggle="modal" data-target="#modalAddtoCart">
-            <button class="btn btn-primary btn-round">
+        <div class="text-center" >
+            @if (auth()->check())
+            <button class="btn btn-primary btn-round" data-toggle="modal" data-target="#modalAddtoCart">
                 <i class="material-icons">add</i> Añadir al Carrito de Compras
             </button>
+            @else
+            <a href="{{ url('/login?redirect_to='.url()->current()) }}" class="btn btn-primary btn-round"> <i class="material-icons">add</i> Añadir al Carrito de Compras</a>
+            @endif
         </div>
 
 <!-- Modal Core -->
