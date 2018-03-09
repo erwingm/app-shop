@@ -80,7 +80,7 @@
             </div>
         </div>
 
-<!--         <div class="main main-raised">
+   <div class="main main-raised">
     <div class="container">
         <div class="section text-center section-landing">
             <div class="row">
@@ -92,36 +92,36 @@
 
             <div class="features">
                 <div class="row">
-                    <div class="col-md-4">
-                        <div class="info">
-                            <div class="icon icon-primary">
-                                <i class="material-icons">chat</i>
-                            </div>
-                            <h4 class="info-title">Atendemos tus dudas</h4>
-                            <p>Atendemos rapidamente cualquier consulta que tengas via chat. No estas solo, sino que siempre estamos atentos a tus inquietudes</p>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="info">
-                            <div class="icon icon-success">
-                                <i class="material-icons">verified_user</i>
-                            </div>
-                            <h4 class="info-title">Pago Seguro</h4>
-                            <p>Todo pedido que realices sera confirmado a traves de una llamada. Si no confias en los pagos en linea puedes pgar contra entrega el valor acordado</p>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="info">
-                            <div class="icon icon-danger">
-                                <i class="material-icons">fingerprint</i>
-                            </div>
-                            <h4 class="info-title">Informacion Privada</h4>
-                            <p>Los pedidos que realices solo los conoceras tu atreaves de tu panel de usuario. Nadie mas tiene acceso a esta informacion</p>
-                        </div>
-                    </div>
+               <!--      <div class="col-md-4">
+                   <div class="info">
+                       <div class="icon icon-primary">
+                           <i class="material-icons">chat</i>
+                       </div>
+                       <h4 class="info-title">Atendemos tus dudas</h4>
+                       <p>Atendemos rapidamente cualquier consulta que tengas via chat. No estas solo, sino que siempre estamos atentos a tus inquietudes</p>
+                   </div>
+               </div>
+               <div class="col-md-4">
+                   <div class="info">
+                       <div class="icon icon-success">
+                           <i class="material-icons">verified_user</i>
+                       </div>
+                       <h4 class="info-title">Pago Seguro</h4>
+                       <p>Todo pedido que realices sera confirmado a traves de una llamada. Si no confias en los pagos en linea puedes pgar contra entrega el valor acordado</p>
+                   </div>
+               </div>
+               <div class="col-md-4">
+                   <div class="info">
+                       <div class="icon icon-danger">
+                           <i class="material-icons">fingerprint</i>
+                       </div>
+                       <h4 class="info-title">Informacion Privada</h4>
+                       <p>Los pedidos que realices solo los conoceras tu atreaves de tu panel de usuario. Nadie mas tiene acceso a esta informacion</p>
+                   </div>
+               </div> -->
                 </div>
             </div>
-        </div> -->
+        </div> 
 
                 <div class="section text-center">
                     <h2 class="title">Categorias de los porductos Disponibles</h2>
