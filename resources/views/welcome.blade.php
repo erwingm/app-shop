@@ -84,7 +84,7 @@
     <div class="container">
         <div class="section text-center section-landing">
     <div class="row">
-    <div class="col-md-8">
+    <div class="col-md-8 col-md-offset-2">
          <h2 class="title">Categorias de los porductos Disponibles</h2>
                     <form class="form-inline" method="get" action="{{ url('/search') }}">
                         <input type="text" placeholder="¿Que producto Desea Buscar?" class="form-control" name="query" id="search">
@@ -127,11 +127,12 @@
                    </div>
                </div> -->
 
-             
+          
                 </div>
             </div>
         </div> 
-           <div class="section text-center">
+        <!-- Aqui va el foreach de la categoria -->
+              <div class="section text-center">
                    <!--  <h2 class="title">Categorias de los porductos Disponibles</h2>
                    <form class="form-inline" method="get" action="{{ url('/search') }}">
                        <input type="text" placeholder="¿Que producto Desea Buscar?" class="form-control" name="query" id="search">
